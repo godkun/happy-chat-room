@@ -1,0 +1,25 @@
+{
+  "name": "happy-chat-room",
+  "version": "1.0.0",
+  "description": "这是一个用socket和express写的局域网聊天室",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godkun/happy-chat-room.git"
+  },
+  "author": "godkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godkun/happy-chat-room/issues"
+  },
+  "homepage": "https://github.com/godkun/happy-chat-room#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.1",
+    "socket.io-redis": "^5.2.0"
+  }
+}
